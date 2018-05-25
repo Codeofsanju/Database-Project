@@ -5,8 +5,8 @@
 This is a Disease and Infection Research database. The use case is any research foundation tasked with finding new, researching, and containing potentially dangerous disease and virus. Of course, to do this the foundation would need a way to track everything about employees, departments, sites, and research logs. The foundation may also need to keep track of disease dangers, their safety protocols and more importantly, any breaches made to safety.
 	To allow foundations to do this we have come up with the following entities:
 1.	Object: The disease or infection to be researched. The attributes of this entity are:
-<t>a.	Object Number: The unique key number of the disease/infection.
-<t>b.	Breach Status: Simply active or not active. Used to quickly query what infections/diseases are breached or not.
+  a.	Object Number: The unique key number of the disease/infection.
+  b.	Breach Status: Simply active or not active. Used to quickly query what infections/diseases are breached or not.
   c.	Danger level: To prioritize safety of these entities, we have a danger level for them.
   d.	Description: Name/Type
   e.	Containment
